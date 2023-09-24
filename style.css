@@ -4,12 +4,12 @@ body {
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    padding: 30px;
 }
 
 h1,
 h2 {
     color: #0548ff;
+    padding: 30px;
 }
 
 h1 {
@@ -22,8 +22,27 @@ a {
     color: #0548ff;
 }
 
-header {
+header,
+.povidani,
+.informace {
     background-color: #e8eefc;
+}
+
+.povidani {
+    padding: 40px 0 200px 0;
+}
+
+.informace {
+    padding: 0  0 40px 30px;
+}
+
+table {
+    padding: 0 0 0 30px;
+}
+
+h2 {
+    background-color: white;
+    padding: 10px 0 10px 30px;
 }
 
 footer {
@@ -35,11 +54,14 @@ footer {
 
 .foto_ja {
     width: 280px;
-    padding: 0;
+    padding: 0 0 0 30px;
+    border-radius: 50%;
+    float: left;
 }
 
 p {
     text-align: center;
+    margin: 0;
 }
 
 table {
@@ -86,6 +108,7 @@ li {
 .postavicka {
     width: 200px;
     padding: 0 0 0 800px;
+    float: right;
 }
 
 .nabidka {
