@@ -29,7 +29,11 @@ header,
 }
 
 .povidani {
-    padding: 40px 0 200px 0;
+    padding: 40px 70px 200px 30px;
+}
+
+.poznamka {
+    text-align: right;
 }
 
 .informace {
@@ -60,8 +64,8 @@ footer {
     float: left;
 }
 
-p {
-    text-align: center;
+.povidani {
+    text-align: justify;
     margin: 0;
 }
 
@@ -103,7 +107,8 @@ li {
 .menu a:hover,
 .menu a:focus,
 .menu a:active {
-    background-color: #054e9c;
+    background-color: white;
+    color: #0548ff;
 }
 
 .postavicka {
