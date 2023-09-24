@@ -43,6 +43,7 @@ table {
 h2 {
     background-color: white;
     padding: 10px 0 10px 30px;
+    margin: 50px 5px 5px 0;
 }
 
 footer {
@@ -92,9 +93,9 @@ li {
     display: inline-block;
 }
 
-.menu a{
+.menu a {
     display: inline-block;
-    color: yellow;
+    color: white;
     text-decoration: none;
 
 }
@@ -102,13 +103,12 @@ li {
 .menu a:hover,
 .menu a:focus,
 .menu a:active {
-    background-color: white;
+    background-color: #054e9c;
 }
 
 .postavicka {
     width: 200px;
     padding: 0 0 0 800px;
-    float: right;
 }
 
 .nabidka {
